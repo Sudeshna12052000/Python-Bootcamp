@@ -1,4 +1,4 @@
-a = int(input("Enter the first number to be added: "))
-b = int(input("Enter the second number to be added: "))
-c = a + b
-print (repr(a),'+',repr(b),'=',repr(c))
+number= input("Enter a two values: ")
+l=number.split()
+
+print(l[0],'+',l[1],'=',(int(l[0])+int(l[1])))
