@@ -1,5 +1,2 @@
-list= input("Enter  two values: ")
-l=list.split()
-no = [l[0],l[1],(int(l[0])+int(l[1]))]
-two,three,five=no
-print(str(two)+"+"+str(three)+"="+str(five))
+a, b = input("Enter 2 values").split()
+print(a,"+",b,"=",int(a)+int(b))
